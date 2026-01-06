@@ -27,22 +27,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // service service_6slfpjm
-    // template template_of1apr5
-    // public GrjCpVoyxQb073dg6
-
     emailjs
       .send(
-        "service_6slfpjm",
-        "template_of1apr5",
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Okeke Francis",
+          to_name: process.env.TO_NAME,
           from_email: form.email,
-          to_email: "okeke98@gmail.com",
+          to_email: process.env.TO_EMAIL,
           message: form.message,
         },
-        "GrjCpVoyxQb073dg6"
+        process.env.PUBLIC_KEY
       )
       .then(() => {
         setLoading(false);

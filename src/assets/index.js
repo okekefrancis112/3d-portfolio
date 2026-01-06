@@ -9,6 +9,11 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import solidity from "./tech/solidity.png";
+import foundry from "./tech/foundry.png";
+import prisma from "./tech/prisma.png";
+import postgres from "./tech/postgres.png";
+import hardhat from "./tech/hardhat.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  // solidity,
+  // foundry,
+  // prisma,
+  // postgres,
+  // hardhat,
 };

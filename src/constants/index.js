@@ -15,6 +15,11 @@ import {
   git,
   figma,
   docker,
+  // solidity,
+  // foundry,
+  // prisma,
+  // postgres,
+  // hardhat,
   meta,
   starbucks,
   tesla,
@@ -112,6 +117,26 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  // {
+  //   title: "Solidity",
+  //   icon: solidity,
+  // },
+  // {
+  //   title: "Foundry",
+  //   icon: foundry,
+  // },
+  // {
+  //   title: "prisma",
+  //   icon: prisma,
+  // },
+  // {
+  //   title: "postgres",
+  //   icon: postgres,
+  // },
+  // {
+  //   title: "hardhat",
+  //   icon: hardhat,
+  // },
 ];
 
 const experiences = [
@@ -197,6 +222,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
   {
     name: "Car Rent",
     description:
