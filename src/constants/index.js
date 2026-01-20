@@ -239,7 +239,7 @@ const projects = [
       { name: "clerk", color: "green-text-gradient" },
     ],
     image: slack,
-    live_link: "https://echo-web-bnur.onrender.com",
+    live_link: "https://slack-clone-8vhk.onrender.com",
     source_code_link: "https://github.com/okekefrancis112/slack-clone",
   },
   {
